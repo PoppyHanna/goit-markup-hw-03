@@ -40,12 +40,6 @@ main {
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
 }
 
-.header-inner {
-  display: flex;
-  justify-content: space-between;
-  gap: 40px;
-}
-
 .header-nav {
   display: flex;
   align-items: center;
@@ -109,6 +103,7 @@ a {
   display: flex;
   align-items: center;
   gap: 40px;
+  margin-left: auto;
 }
 
 .address-link {
@@ -200,18 +195,20 @@ a {
   position: absolute;
   width: 1px;
   height: 1px;
-  padding: 0;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
+  margin: -1px;
   border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .benefits-list {
   display: flex;
   flex-direction: row;
   gap: 24px;
-  padding: 120px 0;
+  padding: 120px 0 120px;
 }
 .list-item {
   display: flex;
@@ -311,7 +308,7 @@ a {
   justify-content: space-between;
   align-items: center;
   gap: 24px;
-  padding-bottom: 120px;
+  padding: 120px 0 120px 0;
   flex-wrap: wrap;
   row-gap: 48px;
 }
@@ -347,7 +344,8 @@ a {
   font-style: normal;
   text-align: center;
   color: #2e2f42;
-  margin-bottom: 8px;
+  margin-bottom: 72px;
+  padding-top: 120px;
 }
 .works-title {
   color: #2e2f42;
@@ -357,7 +355,7 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
   font-style: normal;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .portfolio-text {
   color: #434455;
