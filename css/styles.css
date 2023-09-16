@@ -298,6 +298,18 @@ a {
 .portfolio {
   padding: 120px 0 120px 0;
 }
+.portfolio-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  font-style: normal;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 72px;
+}
 .our-portfolio-list {
   display: flex;
   justify-content: space-between;
@@ -328,18 +340,6 @@ a {
   border-top: none;
 }
 
-.portfolio-title {
-  font-family: 'Roboto', sans-serif;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  font-style: normal;
-  text-align: center;
-  color: #2e2f42;
-  margin-bottom: 72px;
-}
 .works-title {
   color: #2e2f42;
   font-family: 'Roboto', sans-serif;
