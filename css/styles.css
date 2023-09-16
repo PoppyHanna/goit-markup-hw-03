@@ -249,7 +249,7 @@ a {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .our-team-list {
   display: flex;
